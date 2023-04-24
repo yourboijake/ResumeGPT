@@ -1,0 +1,11 @@
+Sure, here are the qualifications for the Business Intelligence Analyst position:
+
+- Minimum of 2 years of advanced SQL development and troubleshooting experience.
+- Data Visualization experience (Tableau/Cognos/SSRS)
+- Python and/or R experience is a bonus
+- Bachelor of Science in Computer Science, Computer Information Systems, Management Information Systems, Information Technology, Applied Statistics, or closely-related degree.
+- Proven track record of business analysis, requirement definition and solution delivery. Examples may be requested during interview.
+- Good organizational and interpersonal skills with the ability to work with various functional areas, including Tech Ops, Customer Care, and Customer Experience
+- Great attention to detail
+- Ability to work well in a fast-paced environment
+- Flexibility and a positive attitude
