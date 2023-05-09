@@ -1,0 +1,31 @@
+Experience
+Transaction Network Services, Call Guardian
+Data Analyst II, Oct 2020 - Present
+    • Used Python and SQL to code data pipelines and data cleaning for development and testing of machine learning models, increasing sample sizes by 5x while optimizing code to run with under a 10th the memory usage. Integrated code with Git repo for extensible usability. Rewrote code to run in PySpark on AWS.
+    • Wrote complex queries, optimized to run on large (billion+ row) datasets of telecomm-industry data (call records, business listings, etc.) using Hive SQL/Hadoop
+    • Wrote Python scripts to automate various customer service operations on Linux system, reducing response times by over 10x and reducing my team’s workload by 70%
+    • Developed time-to-detection metric for spam detection machine learning model, coded in Python and added to SQL database.
+    • Visualized KPI data for presentation to customers including Verizon and Comcast using Python/Matplotlib
+    • Wrote code to integrate with repositories in Agile team following Agile workflow methodology
+
+Education
+Whitworth University Sept 2016 - May 2020
+  B.A., Mathematical Economics (3.7 GPA) 
+
+University of Michigan
+Specialization, Applied Data Science with Python
+  July 2020 - Aug 2020
+
+Activities
+CFA Research Competition
+Quantitative Team Member
+    Nov 2019 - Mar 2020
+    • Programmed linear regression and Monte Carlo simulations in Python to forecast financial statements
+    • Visualized stock performance projections for financial scenario analysis using Python
+    • Wrote comprehensive research report and valuation for Banner Bank
+    • Won Northwest Regional, with highest ranked presentation and written report
+
+Skills
+    • Programming/Data Analysis: Python (Pandas, Numpy), Microsoft Excel, SQL, distributed data systems (Hadoop, Spark), Data Visualization (Excel, Matplotlib, Tableau)
+    • Research: Able to efficiently retrieve, organize, and summarize complex information in a timely manner
+    • Statistics: Probability distributions, hypothesis testing, regression analysis, machine learning

@@ -45,27 +45,34 @@ import requests
 from bs4 import BeautifulSoup
 import re
 import openai
-from k import api_key
+from keys import api_key
+import time
 
+'''
+#get links from webpage
 #parse html of job description
 links = ['https://www.indeed.com/cmp/Acacia-Dental-Group-3/jobs?jk=33bd9bc743f15353&start=0&clearPrefilter=1',
          'https://jobs.xcelenergy.com/job/Control-Room-Supervisor-In-Training-Job-MN-55362/1018497600/',
          'https://careers.walmart.com/us/jobs/WD1110519-truck-driver-otr-regional-loveland-co',
-         'https://jobs.brooksource.com/job/business-intelligence-analyst-atlanta-ga/1018497600/']
+         'https://www.kpmguscareers.com/jobdetail/?jobId=97339']
 
 page = requests.get(links[3])
+time.sleep(1)
 
 #use regex to remove all html tags
 soup = BeautifulSoup(page.content, 'html.parser')
 text = soup.get_text()
 text = re.sub('<[^<]+?>', '', text)
 text = text.replace('\n', ' ').replace('\xa0', ' ').replace('\t', ' ')
+'''
+
+#copy from text description of job requirements
+text = open('job_raw.txt', 'r').read()
 
 #use gpt-3.5-turbo to get bullet points of job description
 openai.organization = "org-kqbJP1qBA8CVuReLEues52fs"
 openai.api_key = api_key
 
-'''
 #prompt model to summarize job description and qualifications in bullet points
 completion = openai.ChatCompletion.create(
     model="gpt-3.5-turbo",
@@ -73,7 +80,7 @@ completion = openai.ChatCompletion.create(
         {"role": "system", "content": "You are a helpful resume building assistant. I'll give you a job description, you tell me about the job."},
         {"role": "user", "content": f"Here is the job description: {text}"},
         {"role": "assistant", "content": "Ok, I understand the role."},
-        {"role": "user", "content": "Briefly list the qualifications for the job in bullet points"},
+        {"role": "user", "content": "Briefly list the qualifications for the job in bullet points. Only output the qualifications, without any filler."},
         ],
     temperature=0.2,
     max_tokens=1000)
@@ -81,7 +88,6 @@ completion = openai.ChatCompletion.create(
 print('retrieved job description and qualifications')
 open('job_req.txt', 'w').write(completion.choices[0].message.content)
 qualification_list = completion.choices[0].message.content.split('\n')
-'''
 
 qualification_list = open('job_req.txt', 'r').read().split('\n')
 #prompt user to explain their work experiences in terms of qualifications
@@ -107,6 +113,9 @@ for i, response in enumerate(response_list):
         temperature=0.2,
         max_tokens=1000)
     responses_fixed.append(completion.choices[0].message.content)
+
+with open('responses_fixed.txt', 'w') as f:
+    [f.write(r) for r in responses_fixed]
 
 import pdb; pdb.set_trace()
 

@@ -1,11 +1,11 @@
-Sure, here are the qualifications for the Business Intelligence Analyst position:
-
-- Minimum of 2 years of advanced SQL development and troubleshooting experience.
-- Data Visualization experience (Tableau/Cognos/SSRS)
-- Python and/or R experience is a bonus
-- Bachelor of Science in Computer Science, Computer Information Systems, Management Information Systems, Information Technology, Applied Statistics, or closely-related degree.
-- Proven track record of business analysis, requirement definition and solution delivery. Examples may be requested during interview.
-- Good organizational and interpersonal skills with the ability to work with various functional areas, including Tech Ops, Customer Care, and Customer Experience
-- Great attention to detail
-- Ability to work well in a fast-paced environment
-- Flexibility and a positive attitude
+- Pursuing or obtained a Bachelor of Accountancy, Master of Accountancy, or equivalent program from an accredited college or university
+- Pursuing state-specific education requirements to be a licensed Certified Public Accountant (CPA) in the principal place of business
+- Preferred GPA of 3.0 or above
+- Bilingual in English and Japanese with ability to use both Japanese and English language skills in a business environment
+- Coursework or minor in information systems, software engineering, computer science or data and analytics preferred
+- Demonstrated quality service mindset and foundational knowledge of technical accounting and financial reporting standards
+- Strong technical aptitude, critical thinking and research skills
+- Strong communication, time management and relationship-building skills
+- Flexible and adaptable team player
+- Leadership experience and resourceful in delivering high quality work
+- Ability to demonstrate project management skills is a plus
