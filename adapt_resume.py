@@ -143,7 +143,7 @@ class ResumeBuilder:
         else:
             raise ValueError('method must be one of: single_prompt, step_by_step, text_embeddings')
 
-        filename = f'new_resume_{method}.txt'        
+        filename = f'new_resume_{method}.txt'
         print('writing new resume to filename:', filename)
         self.write_resume(new_resume, filename)
         return new_resume
