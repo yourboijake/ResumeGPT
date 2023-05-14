@@ -14,10 +14,10 @@ Approaches:
 
 import openai
 #from openai.embeddings_utils import get_embedding, cosine_similarity
-from keys import api_key
 import re
 import pandas as pd
 import json
+import argparse
 
 #openai.organization = "org-kqbJP1qBA8CVuReLEues52fs"
 #openai.api_key = api_key
