@@ -1,0 +1,45 @@
+Objective: To obtain the position of Audit Associate at KPMG and utilize my skills in data analysis, programming, and research to provide exceptional audit services to clients.
+
+Experience:
+
+Data Analyst II, Transaction Network Services, Call Guardian, Oct 2020 - Present
+- Developed and tested machine learning models by coding data pipelines and data cleaning using Python and SQL, resulting in a 5x increase in sample sizes and optimized code that runs with under a 10th of the memory usage. Integrated code with Git repo for extensible usability. Rewrote code to run in PySpark on AWS.
+- Wrote complex queries optimized for large datasets of telecomm-industry data (call records, business listings, etc.) using Hive SQL/Hadoop.
+- Automated various customer service operations on Linux system using Python scripts, reducing response times by over 10x and reducing team workload by 70%.
+- Developed a time-to-detection metric for spam detection machine learning model, coded in Python, and added to SQL database.
+- Visualized KPI data using Python/Matplotlib for presentation to customers including Verizon and Comcast.
+- Integrated with repositories in Agile team following Agile workflow methodology.
+
+Education:
+
+Whitworth University, Sept 2016 - May 2020
+B.A., Mathematical Economics (3.7 GPA)
+
+University of Michigan, July 2020 - Aug 2020
+Specialization, Applied Data Science with Python
+
+Activities:
+
+CFA Research Competition, Quantitative Team Member, Nov 2019 - Mar 2020
+- Programmed linear regression and Monte Carlo simulations in Python to forecast financial statements.
+- Visualized stock performance projections for financial scenario analysis using Python.
+- Wrote comprehensive research report and valuation for Banner Bank.
+- Won Northwest Regional, with highest ranked presentation and written report.
+
+Skills:
+- Programming/Data Analysis: Python (Pandas, Numpy), Microsoft Excel, SQL, distributed data systems (Hadoop, Spark), Data Visualization (Excel, Matplotlib, Tableau).
+- Research: Efficiently retrieves, organizes, and summarizes complex information in a timely manner.
+- Statistics: Probability distributions, hypothesis testing, regression analysis, machine learning.
+
+Qualifications:
+
+- Completed Bachelor of Accountancy or Master of Accountancy, or equivalent program from an accredited college or university.
+- Pursuing state-specific education requirements to be a licensed Certified Public Accountant (CPA) in the principal place of business (the state in which the office is located) for this position, with completion of required academic credits prior to the start date for this position.
+- Bilingual in English and Japanese with ability to use both Japanese and English language skills in a business environment.
+- Coursework or minor in information systems, software engineering, computer science, or data and analytics preferred; experience with data analysis tools and techniques such as Alteryx or Power BI preferred.
+- Demonstrated quality service mindset and foundational knowledge of technical accounting and financial reporting standards; knowledge of generally accepted accounting principles.
+- Strong technical aptitude, critical thinking, and research skills; ability to navigate various computer applications, including MS Office (emphasis on Excel); aptitude to quickly learn KPMG Audit tools and applications used by our clients.
+- Strong communication, time management, and relationship-building skills; able to employ sound professional judgment and professional skepticism; flexible and adaptable team player; leadership experience and resourceful in delivering high-quality work; ability to demonstrate project management skills is a plus.
+- Work location may be in the office but will typically be at client sites, some of which may require travel and overnight/extended stay (varies by office); Audit professionals may have the opportunity to work virtually/remotely in the U.S. depending on business needs.
+
+By combining my technical skills in programming and data analysis with my knowledge of accounting and financial reporting standards, I am confident that I can provide exceptional audit services to KPMG's clients. My experience in developing and testing machine learning models, writing complex queries, and automating various operations using Python and SQL will enable me to execute and document testing of client controls and financial statement account balances with clear explanations of procedures and results. Additionally, my ability to efficiently retrieve, organize, and summarize complex information in a timely manner will allow me to support project management activities by assessing and reporting status, tracking deliverables, and coordinating action items.
